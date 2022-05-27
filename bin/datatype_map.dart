@@ -1,6 +1,6 @@
 void main(List<String> args) {
   Map<String, String> map1 = {};
-  var map2 = Map<String, String>();
+  // var map2 = Map<String, String>();
   var map3 = <String, String>{
     'first': 'Endang',
     'last': 'Ismaya',
@@ -8,7 +8,7 @@ void main(List<String> args) {
   };
 
   print(map1);
-  print(map2);
+  // print(map2);
   print(map3);
 
   print(map1.length);
